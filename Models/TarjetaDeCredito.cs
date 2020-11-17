@@ -7,6 +7,6 @@ namespace BackEndv2.Models
 {
     public class TarjetaDeCredito
     {
-
+        int n = 0;
     }
 }
