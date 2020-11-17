@@ -11,6 +11,8 @@ namespace BackEndv2
     {
         public AplicationDbContext(DbContextOptions<AplicationDbContext> options) : base(options)
             { }
+        public interface IRelationalTypeMappingSource : Microsoft.EntityFrameworkCore.Storage.ITypeMappingSource 
+            { }
         public DbSet<TarjetaDeCredito> TarjetaDeCreditos { get; set; }
 
     }
