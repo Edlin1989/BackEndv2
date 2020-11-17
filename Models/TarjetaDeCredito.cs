@@ -12,6 +12,7 @@ namespace BackEndv2.Models
     {
        [Key] 
         public int Id { get; set; }
+
         [Required]
         [Column(TypeName = "varchar(100)")]
         public string Titular { get; set; }
